@@ -50,9 +50,6 @@ export default function CountryInfo() {
   }, [location]);
   const languages =
     countryData?.languages && Object.values(countryData?.languages);
-  // const currency =
-  //   countryData?.currencies && Object.values(countryData?.currencies);
-  // console.log("data", currency);
   return (
     <>
       <Box sx={{ textAlign: "center" }}>
