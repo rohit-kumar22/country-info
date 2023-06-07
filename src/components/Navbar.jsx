@@ -41,7 +41,7 @@ const continents = [
 
 export default function Navbar() {
   const { location, setLocation } = useContext(locationContext);
-  const [country, setCountry] = useState(location.country);
+  const [country, setCountry] = useState("");
 
   console.log("countries", country);
 
