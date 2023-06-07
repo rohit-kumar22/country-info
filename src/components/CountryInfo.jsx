@@ -74,7 +74,6 @@ export default function CountryInfo() {
           <Grid item xs={6}>
             <Typography sx={styles.value}>{countryData?.capital}</Typography>
             <Typography sx={styles.value}></Typography>
-            {console.log("values..", countryData?.currencies)}
             {Object.values(countryData?.currencies || {})?.map((key, index) => (
               <Box sx={{ display: "flex", gap: "10px", marginBottom: "10px" }}>
                 {console.log("key..", key)}
