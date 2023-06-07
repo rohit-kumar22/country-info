@@ -73,7 +73,7 @@ export default function CountryInfo() {
             <Typography sx={styles.value}></Typography>
             {Object.values(countryData?.currencies || {})?.map((key, index) => (
               <Box sx={{ display: "flex", gap: "10px", marginBottom: "10px" }}>
-                {console.log("key..", key)}
+                
                 <Typography>{key.name}</Typography>
                 <Typography>{key.symbol}</Typography>
               </Box>
